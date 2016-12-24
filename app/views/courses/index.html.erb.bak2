@@ -1,0 +1,8 @@
+<h1>Courses</h1>
+<h2>Searching for <%= @search_term %> </h2>
+
+<% if @courses.nil? %>
+<p>courses is nil</p>
+<% else %>
+<%= @courses %>
+<% end %>
